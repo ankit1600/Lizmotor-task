@@ -1,0 +1,111 @@
+.planning,
+.desiging,
+.manufacturing,
+.sales,
+.research,
+.busineessrelations,
+.statistics {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.logo-text {
+  font-family: "Arial Black", Arial, sans-serif;
+  font-size: 24px;
+  color: #fff; /* Change color as needed */
+  margin-right: 50px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.hover-items:hover .dropdown-menu {
+  display: block;
+  background-color: #007bffbd;
+  color: white;
+}
+
+.chart {
+  width: 21em;
+  position: relative;
+}
+
+.bar {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.bar-label {
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.bar-value {
+  flex-grow: 1;
+  background-color: #007bff;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 30px;
+}
+
+.total {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.total1 {
+  left: 0%;
+}
+
+.total2 {
+  left: 50%;
+}
+
+.total3 {
+  left: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .bar-label {
+    width: 80px;
+  }
+}
+
+.goto {
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 115px;
+}
+
+.gotoReviwes {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  height: 30px;
+  width: 80px;
+  background-color: #0084ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: large;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.reviwes {
+  width: auto;
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}

@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <>
       <div className="header">
-        <header className="d-flex justify-content-center py-3 text-bg-dark">
-          <div className="logo">
+        <header className="position-relative d-flex justify-content-center py-3 text-bg-dark">
+          <div className="logo position-absolute  ">
             {/* Logo */}
             <Link to="/" className="nav-link">
               <span className="logo-text">Lizmotor</span>

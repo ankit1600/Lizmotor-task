@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Card from "./Card";
-import Chart from "./Chart";
+import Card from "../Card";
+import Chart from "../Chart";
 
 const Statistics = () => {
   const [showChart, setShowChart] = useState(false);

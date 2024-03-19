@@ -2,14 +2,14 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
-import Header from "./components/Header";
-import Planning from "./components/Planning";
-import Desiging from "./components/Desiging";
-import Manufacturing from "./components/Manufacturing";
-import Sales from "./components/Sales";
-import Research from "./components/Research";
-import BusineessRelations from "./components/BusineessRelations";
-import Statistics from "./components/Statistics";
+import Header from "./components/common/Header";
+import Planning from "./components/pages/Planning";
+import Desiging from "./components/pages/Desiging";
+import Manufacturing from "./components/pages/Manufacturing";
+import Sales from "./components/pages/Sales";
+import Research from "./components/pages/Research";
+import BusineessRelations from "./components/pages/BusineessRelations";
+import Statistics from "./components/pages/Statistics";
 
 function App() {
   return (
